@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848.91 352.02">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: AxeraRoundRegular, 'Axera Round';
+        font-size: 171.01px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        stroke: #b01a1a;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 11px;
+      }
+
+      .cls-4 {
+        stroke: #2a5ef4;
+      }
+
+      .cls-5 {
+        font-family: Xolonium-Bold, Xolonium;
+        font-size: 46.16px;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(113.98 184.17)"><tspan x="0" y="0">GALLIA</tspan></text>
+  <text class="cls-1" transform="translate(0 320.71)"><tspan x="0" y="0">BE</tspan><tspan class="cls-8" x="226.46" y="0">L</tspan><tspan class="cls-2" x="324.74" y="0">GICA</tspan></text>
+  <path class="cls-3" d="M771.41,315.8V64.43c0-22.22-12.38-58.93-62.06-58.93s-586.02,0-586.02,0"/>
+  <path class="cls-4" d="M749.7,315.8l-.26-244.13c-.77-.3,6.84-45.7-42.35-45.34-50,.37-583.75.62-583.75.62"/>
+  <text class="cls-5" transform="translate(839.22 323.69) rotate(-90)"><tspan class="cls-6" x="0" y="0">S</tspan><tspan x="34.16" y="0">Y</tspan><tspan class="cls-7" x="71.55" y="0">S</tspan><tspan x="106.17" y="0">TEMS</tspan></text>
+</svg>
