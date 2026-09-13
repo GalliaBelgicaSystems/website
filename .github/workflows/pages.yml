@@ -22,9 +22,6 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v4
 
-      - name: Cache Nix store
-        uses: DeterminateSystems/magic-nix-cache-action@v2
-
       - name: Build site
         run: nix develop --command make build
       - name: Upload artifact
