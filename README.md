@@ -20,7 +20,7 @@ make clean
 ```
 
 Requires the Nix dev shell (pinned to `nixos-26.05`, provides pandoc,
-gnumake, python3, git). CI installs pandoc via apt and runs `make build`.
+gnumake, python3, git). CI builds via the Nix flake (`nix develop --command make build`).
 
 ## Hosting
 
