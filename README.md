@@ -7,16 +7,14 @@ Markdown in `content/` compiles to static HTML in `public/` via pandoc.
 
 - Page text: `content/index.md`
 - HTML shell + styling: `templates/base.html`
-- Logo: `assets/logo.png` (vendored copy of
-  `kaartenheld/assets/gallia_belgica_systems.png`; the page hotlinks the
-  `raw.githubusercontent.com` URL)
+- Logo: `assets/gallia-belgica.svg` (copied to `public/gallia-belgica.svg` on build)
 - Custom domain: `CNAME` (copied to `public/CNAME` on build)
 
 ## Build
 
 ```bash
 nix develop
-make build   # -> public/index.html + public/CNAME + public/logo.png
+make build   # -> public/index.html + public/CNAME + public/gallia-belgica.svg
 make serve   # serve public/ on http://localhost:8000
 make clean
 ```

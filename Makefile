@@ -2,9 +2,9 @@
 
 build: public/index.html public/CNAME
 
-public/index.html: content/index.md templates/base.html assets/logo.png
+public/index.html: content/index.md templates/base.html assets/gallia-belgica.svg
 	@mkdir -p public
-	cp assets/logo.png public/
+	cp assets/gallia-belgica.svg public/
 	pandoc --standalone --from markdown --to html5 \
 	  --template templates/base.html --metadata title="GalliaBelgicaSystems" \
 	  --output $@ $<
